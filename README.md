@@ -37,7 +37,7 @@ Say "explain like I am five", "ELI5" or `/explain-like-five`. It stays on for th
 | File | Purpose |
 |---|---|
 | `SKILL.md` | The skill |
-| `.claude-plugin/plugin.json` | Claude Code plugin manifest: name, version, and the SkillCentral content hash in `metadata.skillcentral.hash` |
+| `plugin.json` | Claude Code plugin manifest: name, version, and the SkillCentral content hash in `metadata.skillcentral.hash` |
 
 ## License
 
