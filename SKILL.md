@@ -5,7 +5,7 @@ license: MIT
 metadata:
   tags: "ELI5, Output Style, Plain Language, Teaching"
   category: "communication"
-  version: "1.0.0"
+  version: "1.1.0"
 ---
 
 # explain-like-five

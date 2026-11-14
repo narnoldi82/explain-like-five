@@ -1,0 +1,16 @@
+{
+  "name": "explain-like-five",
+  "version": "1.1.0",
+  "description": "Shape every answer so a five-year-old could follow it: smallest true words, one idea per sentence, pictures before prose, no jargon unless glossed.",
+  "author": {
+    "name": "narnoldi82"
+  },
+  "repository": "https://github.com/narnoldi82/explain-like-five",
+  "license": "MIT",
+  "keywords": ["eli5", "output-style", "plain-language", "teaching"],
+  "metadata": {
+    "skillcentral": {
+      "hash": "sha256:d36c83fad7afe2b607f2ddb8dcfdcf108fb17354942932a108cae05f1a936d1e"
+    }
+  }
+}
