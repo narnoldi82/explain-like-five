@@ -1,4 +1,5 @@
 {
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "explain-like-five",
   "version": "1.1.1",
   "description": "Shape every answer so a five-year-old could follow it: smallest true words, one idea per sentence, pictures before prose, no jargon unless glossed.",
@@ -8,9 +9,9 @@
   "repository": "https://github.com/narnoldi82/explain-like-five",
   "license": "MIT",
   "keywords": ["eli5", "output-style", "plain-language", "teaching"],
-  "metadata": {
-    "skillcentral": {
-      "hash": "sha256:48a4e8c2b4f4035841cf1fad6c586dc24a3210af2d5f070b7477da161361e142"
+  "extensions": {
+    "io.skillcentral": {
+      "hash": "12345"
     }
   }
 }
