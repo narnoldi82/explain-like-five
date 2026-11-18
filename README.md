@@ -42,3 +42,4 @@ Say "explain like I am five", "ELI5" or `/explain-like-five`. It stays on for th
 ## License
 
 [MIT](LICENSE)
+<!-- factory-repository-verification-bb685094 -->
