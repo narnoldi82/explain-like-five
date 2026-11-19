@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "explain-like-five",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "description": "Shape every answer so a five-year-old could follow it: smallest true words, one idea per sentence, pictures before prose, no jargon unless glossed.",
   "author": {
     "name": "narnoldi82"

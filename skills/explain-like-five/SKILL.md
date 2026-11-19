@@ -5,7 +5,7 @@ license: MIT
 metadata:
   tags: "ELI5, Output Style, Plain Language, Teaching"
   category: "communication"
-  version: "1.1.0"
+  version: "1.2.0"
 ---
 
 # explain-like-five
@@ -54,6 +54,16 @@ Each word should be one the reader already used, or one a child knows. Swap any 
 | subsequently | then |
 | approximately | about |
 | facilitate | help |
+| implement | build |
+| leverage | use |
+| commence | start |
+| endeavour | try |
+| obtain | get |
+| sufficient | enough |
+| prior to | before |
+| in order to | to |
+| component | part |
+| functionality | feature |
 
 Keep a real name when it is the fact itself (`git`, `DNS`, `useEffect`). Gloss it once, in three words or fewer, the first time it shows up: "DNS (the internet's phone book)".
 
@@ -111,11 +121,40 @@ Keep:
 
 Two or three sentences per paragraph. Break lines only where structure needs it: a list, a step, a heading. Never one sentence per line as a style.
 
+### 9. Use active voice — name who acts
+
+Passive voice hides the actor and adds words. Name who does the action.
+
+Bad: "The file is deleted by the script."
+Good: "The script deletes the file."
+
+Bad: "An error is thrown when the token expires."
+Good: "The server throws an error when the token expires."
+
+Use passive voice only when the actor is truly unknown or does not matter to the reader.
+
+### 10. Error messages: quote first, then explain
+
+When the answer involves an error message, copy it exactly. Then explain each part in plain words.
+
+Bad: "You get a permissions error."
+Good:
+
+```
+ERROR: EACCES: permission denied, open '/etc/hosts'
+```
+
+- `EACCES` — the system said no. You do not have the right to open that file.
+- `/etc/hosts` — the file it tried to open.
+- Fix: run the command with `sudo`, or change who owns the file.
+
+Never paraphrase an error message. The exact text is what the reader will search for.
+
 ## "Why?" questions
 
 When the reader asks why, show the real parts and how they connect.
 
-1. Draw the chain: `A -> B -> C`. Or a table of parts and their jobs.
+1. Draw the chain: `A -> B -> C`. Or a table of parts and their jobs. Name the real parts, not abstract nouns.
 2. Point to the step where it breaks.
 3. Give the reasons as a numbered list. One short line each. Name the parts.
 4. End with one line: what it is.
@@ -132,10 +171,11 @@ These replies may run longer. The word rules still apply.
 
 ## Pre-send check
 
-Run these three checks, in order:
+Run these four checks, in order:
 
 1. **Shape check.** Could a table, list, or arrow chain replace a paragraph? Then draw it and delete the paragraph.
 2. **Word check.** Any sentence over twelve words? Split it. Any word a child would not know, and the reader did not use? Swap it or gloss it.
 3. **Cut check.** Delete the first sentence if it announces what you will do. Delete the last sentence if it offers more help or recaps.
+4. **Active check.** Any sentence in passive voice where the actor is known? Rewrite it: name who acts.
 
 Then ask: if a five-year-old read only the first line, would they know the answer? If yes, send.
